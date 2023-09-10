@@ -4,7 +4,7 @@ class ClassDispatcher extends Component {
     render() {
         return (
             <div>
-                <div>this is class dispatcher:{JSON.stringify(this.props.state)}</div>
+                <div>this is class disptcher:{JSON.stringify(this.props.state)}</div>
             </div>
         );
     }
