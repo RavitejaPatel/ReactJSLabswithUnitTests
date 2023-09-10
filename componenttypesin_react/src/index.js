@@ -4,12 +4,14 @@ import './index.css';
 import ClassComponent from './ClassComponent';
 import FunctionalComp from './FunctionalComp';
 import reportWebVitals from './reportWebVitals';
+import CarClassComp from './CarClassComp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ClassComponent />
     <FunctionalComp />
+    <CarClassComp />
   </React.StrictMode>
 );
 
