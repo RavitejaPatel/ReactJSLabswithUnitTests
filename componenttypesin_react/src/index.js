@@ -5,13 +5,15 @@ import ClassComponent from './ClassComponent';
 import FunctionalComp from './FunctionalComp';
 import reportWebVitals from './reportWebVitals';
 import CarClassComp from './CarClassComp';
+import Garage from './CarClassComp'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ClassComponent />
+    {/* <ClassComponent />
     <FunctionalComp />
-    <CarClassComp />
+    <CarClassComp /> */}
+    <Garage />
   </React.StrictMode>
 );
 

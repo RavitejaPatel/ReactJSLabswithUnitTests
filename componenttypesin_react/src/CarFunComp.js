@@ -9,7 +9,7 @@ let cardetails =
 const CarFunComp = () => {
     return (
         <div>
-            {cardetails.model}
+            {JSON.stringify(cardetails)}
         </div>
     );
 }
