@@ -1,11 +1,11 @@
 import React from 'react';
 function Event() {
-    const onclickEventFun = () => {
-        alert("click event function")
+    const onclickEventFun = (data) => {
+        alert("click event function with data " + data)
     }
 
     return (
-        <button onClick={onclickEventFun}>click</button>
+        <button onClick={() => onclickEventFun("datapack")}>click</button>
     );
 }
 export default Event;
