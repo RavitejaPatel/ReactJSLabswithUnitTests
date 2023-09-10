@@ -1,19 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import ClassComponent from './ClassComponent';
-import FunctionalComp from './FunctionalComp';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CarClassComp from './CarClassComp';
-import Garage from './CarClassComp'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <ClassComponent />
-    <FunctionalComp />
-    <CarClassComp /> */}
-    <Garage />
+    <App />
   </React.StrictMode>
 );
 

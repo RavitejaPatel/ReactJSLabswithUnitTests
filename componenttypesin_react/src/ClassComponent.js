@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ClassDispatcher from './ClassDispatcher'
 
 class ClassComponent extends Component {
     state =
@@ -10,8 +11,7 @@ class ClassComponent extends Component {
     render() {
         return (
             <div>
-                <p>This message from state component</p>
-                {this.state.name}
+                <ClassDispatcher state={this.state} />
             </div>
         );
     }
